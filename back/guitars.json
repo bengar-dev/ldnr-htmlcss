@@ -1,0 +1,56 @@
+[
+  {
+    "id": "107fb5b75607497b96722bda5b504926",
+    "brand": "Cort",
+    "name": "G100 Black Open Pores",
+    "price": 160,
+    "monthly": 14.24,
+    "imageUrl": "cort-g100-black-open-pores.jpg",
+    "altTxt": "Cort G100 Black Open Pores"
+  },
+  {
+    "id": "101234567807497b96722bda5b504926",
+    "brand": "Cort",
+    "name": "G110 Scarlet Red",
+    "price": 180,
+    "monthly": 16.02,
+    "imageUrl": "cort-g110-scarlet-red.jpg",
+    "altTxt": "Cort G110 Scarlet Red"
+  },
+  {
+    "id": "112345b75607497b96722bda5b504926",
+    "brand": "Eko",
+    "name": "S300 Black",
+    "price": 178,
+    "monthly": 15.84,
+    "imageUrl": "eko-s300-black.jpg",
+    "altTxt": "Eko S300 Black"
+  },
+  {
+    "id": "141256b75607497b96722bda5b504926",
+    "brand": "Eko",
+    "name": "S300 Chrome Red",
+    "price": 178,
+    "monthly": 15.84,
+    "imageUrl": "eko-s300-chrome-red.jpg",
+    "altTxt": "Eko S300 Chrome Red"
+  },
+  {
+    "id": "1075abf75607497b96722bda5b504926",
+    "brand": "Kramer",
+    "name": "Focus VT-211S Pewter Gray",
+    "price": 141,
+    "monthly": 12.54,
+    "imageUrl": "kramer-focus-vt-211s-pewter-gray.jpg",
+    "altTxt": "Kramer Focus VT-211S Pewter Gray"
+  },
+  {
+    "id": "1018fac75607497b96722bda5b504926",
+    "brand": "Kramer",
+    "name": "Focus VT-211S Ruby Red",
+    "price": 141,
+    "monthly": 12.54,
+    "imageUrl": "kramer-focus-vt-211s-ruby-red.jpg",
+    "altTxt": "Kramer Focus VT-211S Ruby Red"
+  }
+]

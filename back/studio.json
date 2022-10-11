@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Enregistreurs numériques",
+        "imageUrl": "enregistreurs.webp",
+        "altTxt": "Enregistreurs numériques"
+    },
+    {
+        "title": "Contrôleurs",
+        "imageUrl": "controleurs.webp",
+        "altTxt": "Contrôleurs"
+    },
+    {
+        "title": "Consoles numériques",
+        "imageUrl": "consoles_numeriques.webp",
+        "altTxt": "Consoles numériques"
+    },
+    {
+        "title": "Packs home studio",
+        "imageUrl": "packs-home-studio.webp",
+        "altTxt": "Packs home studio"
+    },
+    {
+        "title": "Logiciels de montages",
+        "imageUrl": "logiciels.webp",
+        "altTxt": "Logiciels de montages"
+    },
+    {
+        "title": "Tables de mixages analogiques",
+        "imageUrl": "tables-mixages-analogiques.webp",
+        "altTxt": "Tables de mixages analogiques"
+    }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "107fbabc5607497b96722bda5b504926",
+    "brand": "Eagletone",
+    "name": "Phoenix Sunburst",
+    "price": 129,
+    "monthly": 11.48,
+    "imageUrl": "eagletone-phoenix-sunburst-vertical.jpg",
+    "altTxt": "Eagletone Phoenix Sunburst"
+  },
+  {
+    "id": "112ff5b75607497b96722bda5b504926",
+    "brand": "Eko",
+    "name": "S300 Cream",
+    "price": 178,
+    "monthly": 15.84,
+    "imageUrl": "eko-s300-cream-vertical.jpg",
+    "altTxt": "Eko S300 Cream"
+  },
+  {
+    "id": "112ff5b75607497b96722bda5b504926",
+    "brand": "Eko",
+    "name": "S300 Sunburst",
+    "price": 178,
+    "monthly": 15.84,
+    "imageUrl": "eko-s300-sunburst-vertical.jpg",
+    "altTxt": "Eko S300 Sunburst"
+  }
+]
