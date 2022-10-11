@@ -633,7 +633,7 @@ footer a {
 
   .border-studio img {
     max-height: 120px;
-    width: auto;
+    width: 100%;
     object-fit: cover;
   }
 
