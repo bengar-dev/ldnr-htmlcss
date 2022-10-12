@@ -212,7 +212,7 @@ main h2 {
 /*--popular--*/
 .popular {
   width: 100%;
-  margin: 0px;
+  margin: 20px;
   background-color: var(--section-border);
   border-radius: 10px;
 }
@@ -498,6 +498,10 @@ p {
 
   .guitares-content article {
     width: 100%;
+  }
+
+  .popular {
+    margin: 0;
   }
 
   /*studio*/
