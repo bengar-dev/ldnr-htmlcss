@@ -211,7 +211,7 @@ main h2 {
 
 /*--popular--*/
 .popular {
-  width: 100%;
+  width: 30%;
   margin: 20px;
   background-color: var(--section-border);
   border-radius: 10px;
@@ -501,6 +501,7 @@ p {
   }
 
   .popular {
+    width: 100%;
     margin: 0;
   }
 
