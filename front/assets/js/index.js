@@ -1,7 +1,7 @@
 const guitaresContent = document.querySelector(".guitares-content");
 const popularContent = document.querySelector(".popular-content");
 
-async function getStudio() {
+(async function getStudio() {
   try {
     const request = await fetch("../back/studio.json");
     const response = await request.json();
@@ -16,9 +16,9 @@ async function getStudio() {
   } catch (err) {
     console.log(err.message);
   }
-}
+})();
 
-async function getGuitares() {
+(async function getGuitares() {
   try {
     const request = await fetch("../back/guitars.json");
     const response = await request.json();
@@ -43,9 +43,9 @@ async function getGuitares() {
   } catch (err) {
     console.log(err.message);
   }
-}
+})();
 
-async function getPopular() {
+(async function getPopular() {
   try {
     const request = await fetch("../back/populars.json");
     const response = await request.json();
@@ -72,7 +72,7 @@ async function getPopular() {
   } catch (err) {
     console.log(err.message);
   }
-}
+})();
 
 function renderRating(number) {
   let ratings = "";
@@ -85,7 +85,3 @@ function renderRating(number) {
   }
   return ratings;
 }
-
-getGuitares();
-getPopular();
-getStudio();
