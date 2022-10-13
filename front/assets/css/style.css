@@ -25,6 +25,11 @@ p {
   font-family: "Raleway", sans-serif;
 }
 
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .primary-color {
   color: var(--primary-color);
 }
@@ -136,12 +141,12 @@ h1 {
 
 /*Filtres*/
 
-h2{
+h2 {
   font-weight: normal;
   margin-right: 2rem;
 }
 
-.filtres{
+.filtres {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -152,15 +157,14 @@ h2{
   margin-bottom: 2rem;
 }
 
-.icon_filtre{
+.icon_filtre {
   display: flex !important;
-  align-items: center;  
+  align-items: center;
   border: 2px solid rgb(204, 204, 204);
   border-radius: 20px 20px 20px 20px;
-
 }
 
-.filtres i{
+.filtres i {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -182,7 +186,7 @@ h2{
 
 /*Info Bulle*/
 
-.info{
+.info {
   margin-left: 2rem;
   margin-top: 1rem;
   display: flex;
@@ -195,11 +199,11 @@ h2{
   width: 1.5rem;
   height: 1.5rem;
   color: #0065fc;
-  border: solid 1px rgb(204, 204, 204);;
+  border: solid 1px rgb(204, 204, 204);
   border-radius: 50%;
 }
 
-.info p{
+.info p {
   margin-bottom: 0;
   font-size: 0.8rem;
 }
@@ -498,6 +502,10 @@ p {
 }
 
 @media screen and (max-width: 767px) {
+  body {
+    width: 100%;
+  }
+
   /*main*/
   main {
     overflow: hidden;
