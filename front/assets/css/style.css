@@ -25,6 +25,11 @@ p {
   font-family: "Raleway", sans-serif;
 }
 
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .primary-color {
   color: var(--primary-color);
 }
@@ -37,17 +42,16 @@ p {
 
 header {
   display: flex;
-  justify-content: space-between;
-  margin-top: 25px;
+  flex-direction: column;
+  align-items: center;
 }
 
 header img {
   display: block;
-  margin-left: 50px;
 }
 
 header nav {
-  margin-top: 15px;
+  margin-top: 0px;
 }
 
 header ul {
@@ -55,16 +59,23 @@ header ul {
   flex-wrap: wrap;
 }
 
-header ul li {
-  margin-right: 40px;
+header a {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--gray);
 }
 
 header .border_blue {
-  padding: 36px;
+  border-bottom: solid 3px white;
+  padding: 16px;
 }
 
 header .border_blue:hover {
-  border-top: solid 3px var(--primary-color);
+  border-bottom: solid 3px var(--primary-color);
+  color: var(--primary-color);
+}
+
+header .border_blue:hover a {
   color: var(--primary-color);
 }
 
@@ -136,12 +147,12 @@ h1 {
 
 /*Filtres*/
 
-h2{
+h2 {
   font-weight: normal;
   margin-right: 2rem;
 }
 
-.filtres{
+.filtres {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -152,15 +163,14 @@ h2{
   margin-bottom: 2rem;
 }
 
-.icon_filtre{
+.icon_filtre {
   display: flex !important;
-  align-items: center;  
+  align-items: center;
   border: 2px solid rgb(204, 204, 204);
   border-radius: 20px 20px 20px 20px;
-
 }
 
-.filtres i{
+.filtres i {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -182,7 +192,7 @@ h2{
 
 /*Info Bulle*/
 
-.info{
+.info {
   margin-left: 2rem;
   margin-top: 1rem;
   display: flex;
@@ -195,11 +205,11 @@ h2{
   width: 1.5rem;
   height: 1.5rem;
   color: #0065fc;
-  border: solid 1px rgb(204, 204, 204);;
+  border: solid 1px rgb(204, 204, 204);
   border-radius: 50%;
 }
 
-.info p{
+.info p {
   margin-bottom: 0;
   font-size: 0.8rem;
 }
@@ -495,9 +505,56 @@ p {
   .tagline_search_bar .show_mobile {
     display: none;
   }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: initial;
+  }
+
+  header img {
+    margin-top: 20px;
+    display: block;
+  }
+
+  header nav {
+    margin-top: 0px;
+  }
+
+  header ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  header a {
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--gray);
+  }
+
+  header .border_blue {
+    border-top: solid 3px white;
+    border-bottom: 0px;
+    padding: 36px;
+  }
+
+  header .border_blue:hover {
+    border-top: solid 3px var(--primary-color);
+    border-bottom: 0px;
+    color: var(--primary-color);
+  }
+
+  header .border_blue:hover a {
+    color: var(--primary-color);
+  }
 }
 
 @media screen and (max-width: 767px) {
+  body {
+    width: 100%;
+  }
+
   /*main*/
   main {
     overflow: hidden;
@@ -518,6 +575,11 @@ p {
 
   .guitares-content article {
     width: 100%;
+  }
+
+  .popular {
+    width: 100%;
+    margin: 0;
   }
 
   /*studio*/
