@@ -235,6 +235,10 @@ main h2 {
   border-radius: 10px;
 }
 
+.guitares h2 {
+  font-size: 1rem;
+}
+
 .guitares-content {
   padding: 0px 20px 20px 20px;
   display: flex;
@@ -288,6 +292,10 @@ main h2 {
   margin: 20px;
   background-color: var(--section-border);
   border-radius: 10px;
+}
+
+.popular h2 {
+  font-size: 1rem;
 }
 
 .popular-content {
