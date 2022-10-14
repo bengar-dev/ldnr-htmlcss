@@ -27,13 +27,11 @@ const popularContent = document.querySelector(".popular-content");
         const randomRating = Math.floor(Math.random() * (5 - 1) + 1);
         guitaresContent.innerHTML += `
         <article class="guitare-article">
-            <img src="../back/images/${element.imageUrl}" alt="${
-          element.altTxt
-        }"/>
+            <img src="../back/images/${element.imageUrl}" alt="${element.altTxt
+          }"/>
             <h3>${element.name}</h3>
-            <p>${element.price}€ ou <span class="bold">${
-          element.monthly
-        }€ / mois</span></p>
+            <p>${element.price}€ ou <span class="bold">${element.monthly
+          }€ / mois</span></p>
             <div class="guitare-rating">
               ${renderRating(randomRating)}
             </div>
@@ -54,14 +52,12 @@ const popularContent = document.querySelector(".popular-content");
         const randomRating = Math.floor(Math.random() * (5 - 1) + 1);
         popularContent.innerHTML += `
         <article class="popular-article">
-            <img src="../back/images/${element.imageUrl}" alt="${
-          element.altTxt
-        }"/>
+            <img src="../back/images/${element.imageUrl}" alt="${element.altTxt
+          }"/>
             <div class="popular-article-content">
               <h3>${element.name}</h3>
-              <p>${element.price}€ ou <span class="bold">${
-          element.monthly
-        }€ / mois</span></p>
+              <p>${element.price}€ ou <span class="bold">${element.monthly
+          }€ / mois</span></p>
               <div class="popular-article-rating">
                 ${renderRating(randomRating)}
               </div>
